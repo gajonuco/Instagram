@@ -19,5 +19,6 @@ public class Photo {
     private String caption; // Descrição da foto (se houver)
 
     @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", nullable = false)
     private User user; // Associação com o usuário dono das fotos
 }

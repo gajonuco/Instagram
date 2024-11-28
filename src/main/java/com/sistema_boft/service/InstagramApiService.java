@@ -4,6 +4,8 @@ package com.sistema_boft.service;
 
 import com.sistema_boft.model.Photo;
 import com.sistema_boft.model.User;
+
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
